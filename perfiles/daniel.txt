@@ -1,0 +1,4 @@
+Cual es tu Nombre?:daniel
+Que edad tienes?:31
+Que profesion tienes?:ingeniero
+Cuantos ingresos tienes?:5000 usd
