@@ -55,9 +55,16 @@ with gr.Blocks() as demo:
     chatbot = gr.Chatbot()
     query = gr.Textbox()
     audio = gr.Audio(source="microphone", type="filepath")
+    send = gr.Button("Submit")
     clear = gr.ClearButton()
 
     audio.stop_recording(transcribe_audio, audio, query)
-    query.submit(respond, [query, chatbot], [query, chatbot])
+
+    send.click(respond, [query, chatbot], [query, chatbot])
+    chatbot.change(lambda: None, None, audio)
+    chatbot.change(lambda: None, None, query)
+
+    clear.click(lambda: None, None, audio)
+    clear.click(lambda: None, None, query)
 
 demo.launch()
