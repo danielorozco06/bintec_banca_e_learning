@@ -61,13 +61,19 @@ def main() -> None:
     """
     Main function
     """
+    css = """
+        .gradio-container {
+            background: url('file=img/back.jpg')
+        }
+    """
 
-    ui = gr.Interface(
+    gr.Interface(
         fn=transcribe,
         inputs=gr.components.Audio(source="microphone", type="filepath"),
         outputs="text",
-    )
-    ui.launch()
+        theme=gr.themes.Soft(),
+        css=css,
+    ).launch()
 
 
 if __name__ == "__main__":
