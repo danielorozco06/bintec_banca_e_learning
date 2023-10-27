@@ -7,7 +7,12 @@ import openai, subprocess
 from dotenv import load_dotenv
 
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_TOKEN")
+
+api_key = os.getenv("OPENAI_TOKEN")
+if not api_key:
+    raise ValueError("Missing OPENAI_TOKEN environment variable.")
+openai.api_key = api_key
+
 SYSTEM_MESSAGE_CONTENT = "Eres experto financiero, ayudame a aclarar mis dudas."
 TRANSCRIPTION_MODEL = "whisper-1"
 CHAT_MODEL = "gpt-3.5-turbo"
