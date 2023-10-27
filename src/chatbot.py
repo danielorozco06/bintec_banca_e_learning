@@ -34,11 +34,12 @@ def request_ai(transcript: str, perfil: str, producto: str) -> str:
     messages = [
         {
             "role": "system",
-            "content": "Eres un experto financiero, ayudame a aclarar mis dudas.",
+            "content": "Eres un experto financiero, ayúdame a aclarar mis dudas.",
         },
-        {"role": "user", 
-         "content": f"Responder la siguiente pregunta: ${transcript} Tener en cuenta la siguiente informacion de la persona:${perfil}. Apoyarme en el siguiente contenido: ${producto}"
-         },
+        {
+            "role": "user",
+            "content": f"Responder brevemente la siguiente pregunta: ${transcript}. Tener en cuenta la siguiente informacion de la persona:${perfil}. Apoyarme en el siguiente contenido: ${producto}",
+        },
     ]
     response = chat_completion(messages)
     system_message = response["choices"][0]["message"]["content"]
@@ -46,8 +47,15 @@ def request_ai(transcript: str, perfil: str, producto: str) -> str:
     return system_message
 
 
+def readFile(filename):
+    with open(filename, "r") as f:
+        return f.read()
+
+
 def respond(query: str, chat_history: str):
-    response = request_ai(query)
+    perfil = readFile("perfiles/daniel.txt")
+    producto = readFile("productos/cuentas.txt")
+    response = request_ai(query, perfil, producto)
     chat_history.append((query, response))
     time.sleep(2)
     return "", chat_history
