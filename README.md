@@ -5,3 +5,9 @@
 ```bash
 ./initialize.sh
 ```
+
+## Check voices
+  
+```bash
+espeak-ng --voices
+```

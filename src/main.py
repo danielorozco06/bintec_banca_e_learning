@@ -11,7 +11,7 @@ openai.api_key = os.getenv("OPENAI_TOKEN")
 SYSTEM_MESSAGE_CONTENT = "Eres experto financiero, ayudame a aclarar mis dudas."
 TRANSCRIPTION_MODEL = "whisper-1"
 CHAT_MODEL = "gpt-3.5-turbo"
-SPEAK_COMMAND = ["espeak", "-ves"]
+SPEAK_COMMAND = ["espeak-ng", "-ves-49"]
 
 
 def create_chat_transcript(messages):
