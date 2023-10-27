@@ -1,0 +1,4 @@
+Cual es tu Nombre?:Dani
+Que edad tienes?:31
+ Que profesion tienes?:Ingeniero
+ Cuantos ingresos tienes?:5000 USD

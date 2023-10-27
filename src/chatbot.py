@@ -30,13 +30,15 @@ def transcribe_audio(audio) -> str:
         return transcription["text"]
 
 
-def request_ai(transcript: str) -> str:
+def request_ai(transcript: str, perfil: str, producto: str) -> str:
     messages = [
         {
             "role": "system",
             "content": "Eres un experto financiero, ayudame a aclarar mis dudas.",
         },
-        {"role": "user", "content": transcript},
+        {"role": "user", 
+         "content": f"Responder la siguiente pregunta: ${transcript} Tener en cuenta la siguiente informacion de la persona:${perfil}. Apoyarme en el siguiente contenido: ${producto}"
+         },
     ]
     response = chat_completion(messages)
     system_message = response["choices"][0]["message"]["content"]
