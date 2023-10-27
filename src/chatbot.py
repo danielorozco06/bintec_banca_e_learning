@@ -62,11 +62,12 @@ def respond(query: str, chat_history: str):
 
 
 with gr.Blocks() as demo:
+    gr.Markdown("## Asesor financiero virtual")
     chatbot = gr.Chatbot()
-    query = gr.Textbox()
-    audio = gr.Audio(source="microphone", type="filepath")
-    send = gr.Button("Submit")
-    clear = gr.ClearButton()
+    query = gr.Textbox(label="Escriba su consulta")
+    audio = gr.Audio(source="microphone", type="filepath", label="Diganos su consulta")
+    send = gr.Button("Enviar")
+    clear = gr.ClearButton(value="Limpiar")
 
     audio.stop_recording(transcribe_audio, audio, query)
 
