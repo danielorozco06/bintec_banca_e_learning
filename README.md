@@ -1,5 +1,7 @@
 # bintec_banca_e_learning
 
-## Initial setup
+## Initial setup on WSL Ubuntu 22.04
 
-pip3 install -r requirements.txt
+```bash
+./initialize.sh
+```
