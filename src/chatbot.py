@@ -80,7 +80,7 @@ def read_file(filename: str) -> str:
         return f.read()
 
 
-def respond(query: str, chat_history: str):
+def response(query: str, chat_history: str):
     """
     Sends the user's query to the OpenAI API and generates a response.
     The response is then spoken aloud and added to the chat history.
@@ -110,7 +110,7 @@ def main() -> None:
 
         audio.stop_recording(transcribe_audio, audio, query)
 
-        send.click(respond, [query, chatbot], [query, chatbot])
+        send.click(response, [query, chatbot], [query, chatbot])
         chatbot.change(lambda: None, None, audio)
         chatbot.change(lambda: None, None, query)
 
