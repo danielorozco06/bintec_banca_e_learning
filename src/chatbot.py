@@ -11,32 +11,50 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-api_key = os.getenv("OPENAI_TOKEN")
-if not api_key:
-    raise ValueError("Missing OPENAI_TOKEN environment variable.")
-openai.api_key = api_key
 
-TRANSCRIPTION_MODEL = "whisper-1"
-CHAT_MODEL = "gpt-3.5-turbo"
-SPEAK_COMMAND = ["espeak-ng", "-ves-49"]
+def chat_completion(messages: str):
+    """
+    Sends a list of messages to the OpenAI API and returns the response.
+    """
+    openai.api_type = "azure"
+    openai.api_base = "https://pocdevops-dev-oai-01.openai.azure.com"
+    openai.api_version = "2023-05-15"
+    openai.api_key = os.getenv("AZURE_OPENAI_TOKEN")
+
+    return openai.ChatCompletion.create(
+        engine="gpt-35-turbo",
+        messages=messages,
+        temperature=0,
+        max_tokens=1000,
+        top_p=0.95,
+        frequency_penalty=0,
+        presence_penalty=0,
+        stop=None,
+    )
 
 
-def chat_completion(messages):
-    return openai.ChatCompletion.create(model=CHAT_MODEL, messages=messages)
-
-
-def speak_message(message):
+def speak_message(message: str) -> None:
+    """
+    Generates an audio file from the given message and plays it using the mpg123 player.
+    """
     gTTS(text=message, lang="es", slow=False).save("audios/good.mp3")
     os.system("mpg123 audios/good.mp3 &")
 
 
-def transcribe_audio(audio) -> str:
+def transcribe_audio(audio: str) -> str:
+    """
+    Transcribes the audio file at the given path using the OpenAI API and returns the resulting text.
+    """
     with open(audio, "rb") as audio_file:
-        transcription = openai.Audio.transcribe(TRANSCRIPTION_MODEL, audio_file)
+        openai.api_key = os.getenv("OPENAI_TOKEN")
+        transcription = openai.Audio.transcribe("whisper-1", audio_file)
         return transcription["text"]
 
 
 def request_ai(transcript: str, perfil: str, producto: str) -> str:
+    """
+    Sends a message to the OpenAI API to generate a response to the user's query.
+    """
     messages = [
         {
             "role": "system",
@@ -44,7 +62,9 @@ def request_ai(transcript: str, perfil: str, producto: str) -> str:
         },
         {
             "role": "user",
-            "content": f"Responder brevemente la siguiente pregunta: ${transcript}. Tener en cuenta la siguiente informacion de la persona:${perfil}. Apoyarme en el siguiente contenido: ${producto}",
+            "content": f"Responder brevemente la siguiente pregunta: {transcript}. "
+            f"Tener en cuenta la siguiente información de la persona: {perfil}. "
+            f"Apoyarme en el siguiente contenido: {producto}",
         },
     ]
     response = chat_completion(messages)
@@ -52,14 +72,21 @@ def request_ai(transcript: str, perfil: str, producto: str) -> str:
     return system_message
 
 
-def readFile(filename):
+def read_file(filename: str) -> str:
+    """
+    Reads the contents of a file and returns it as a string.
+    """
     with open(filename, "r") as f:
         return f.read()
 
 
 def respond(query: str, chat_history: str):
-    perfil = readFile("perfiles/daniel.txt")
-    producto = readFile("productos/cuentas.txt")
+    """
+    Sends the user's query to the OpenAI API and generates a response.
+    The response is then spoken aloud and added to the chat history.
+    """
+    perfil = read_file("perfiles/daniel.txt")
+    producto = read_file("productos/cuentas.txt")
     response = request_ai(query, perfil, producto)
     speak_message(response)
     chat_history.append((query, response))
@@ -67,21 +94,31 @@ def respond(query: str, chat_history: str):
     return "", chat_history
 
 
-with gr.Blocks() as demo:
-    gr.Markdown("## Asesor financiero virtual")
-    chatbot = gr.Chatbot()
-    query = gr.Textbox(label="Escriba su consulta")
-    audio = gr.Audio(source="microphone", type="filepath", label="Diganos su consulta")
-    send = gr.Button("Enviar")
-    clear = gr.ClearButton(value="Limpiar")
+def main() -> None:
+    """
+    Launches the Gradio demo for the virtual financial advisor chatbot.
+    """
+    with gr.Blocks() as demo:
+        gr.Markdown("## Asesor financiero virtual")
+        chatbot = gr.Chatbot()
+        query = gr.Textbox(label="Escriba su consulta")
+        audio = gr.Audio(
+            source="microphone", type="filepath", label="Díganos su consulta"
+        )
+        send = gr.Button("Enviar")
+        clear = gr.ClearButton(value="Limpiar")
 
-    audio.stop_recording(transcribe_audio, audio, query)
+        audio.stop_recording(transcribe_audio, audio, query)
 
-    send.click(respond, [query, chatbot], [query, chatbot])
-    chatbot.change(lambda: None, None, audio)
-    chatbot.change(lambda: None, None, query)
+        send.click(respond, [query, chatbot], [query, chatbot])
+        chatbot.change(lambda: None, None, audio)
+        chatbot.change(lambda: None, None, query)
 
-    clear.click(lambda: None, None, audio)
-    clear.click(lambda: None, None, query)
+        clear.click(lambda: None, None, audio)
+        clear.click(lambda: None, None, query)
 
-demo.launch()
+    demo.launch()
+
+
+if __name__ == "__main__":
+    main()
