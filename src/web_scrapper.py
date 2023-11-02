@@ -58,6 +58,6 @@ if info:
     print(info)
 
     # Guardar la información en un archivo
-    save_to_file(f"productos/{nombre_producto}.txt", info)
+    save_to_file(f"websites/{nombre_producto}.txt", info)
 else:
     print("No se pudo recuperar información relevante de la página.")
