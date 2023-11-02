@@ -1,3 +1,7 @@
+"""
+This module contains the implementation of a chatbot that interacts with users to answer financial questions.
+"""
+
 import os
 import gradio as gr
 import openai
