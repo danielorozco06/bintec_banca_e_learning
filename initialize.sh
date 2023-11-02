@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-sudo apt-get update && sudo apt-get install ffmpeg python3-pip espeak-ng -y
+sudo apt-get update && sudo apt-get install ffmpeg python3-pip mpg123 -y
 
 pip3 install --upgrade pip
 

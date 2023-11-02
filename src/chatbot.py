@@ -1,7 +1,8 @@
 import os
 import gradio as gr
-import openai, subprocess
+import openai
 import time
+from gtts import gTTS
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -21,7 +22,8 @@ def chat_completion(messages):
 
 
 def speak_message(message):
-    subprocess.call(SPEAK_COMMAND + [message])
+    gTTS(text=message, lang="es").save("audios/good.mp3")
+    os.system("mpg123 audios/good.mp3 &")
 
 
 def transcribe_audio(audio) -> str:
@@ -43,7 +45,6 @@ def request_ai(transcript: str, perfil: str, producto: str) -> str:
     ]
     response = chat_completion(messages)
     system_message = response["choices"][0]["message"]["content"]
-    speak_message(system_message)
     return system_message
 
 
@@ -56,6 +57,7 @@ def respond(query: str, chat_history: str):
     perfil = readFile("perfiles/daniel.txt")
     producto = readFile("productos/cuentas.txt")
     response = request_ai(query, perfil, producto)
+    speak_message(response)
     chat_history.append((query, response))
     time.sleep(2)
     return "", chat_history
