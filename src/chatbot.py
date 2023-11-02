@@ -26,7 +26,7 @@ def chat_completion(messages):
 
 
 def speak_message(message):
-    gTTS(text=message, lang="es").save("audios/good.mp3")
+    gTTS(text=message, lang="es", slow=False).save("audios/good.mp3")
     os.system("mpg123 audios/good.mp3 &")
 
 
