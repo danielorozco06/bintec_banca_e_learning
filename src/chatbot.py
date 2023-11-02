@@ -37,8 +37,8 @@ def speak_message(message: str) -> None:
     """
     Generates an audio file from the given message and plays it using the mpg123 player.
     """
-    gTTS(text=message, lang="es", slow=False).save("audios/good.mp3")
-    os.system("mpg123 audios/good.mp3 &")
+    gTTS(text=message, lang="es", slow=False).save("audios/input.mp3")
+    os.system("mpg123 audios/input.mp3 &")
 
 
 def transcribe_audio(audio: str) -> str:
