@@ -2,3 +2,4 @@ python-dotenv
 openai
 gradio
 gTTS
+beautifulsoup4
