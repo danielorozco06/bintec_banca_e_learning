@@ -11,3 +11,5 @@
 ```bash
 espeak-ng --voices
 ```
+
+https://www.bancolombia.com/robots.txt
