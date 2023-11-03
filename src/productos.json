@@ -1,0 +1,14 @@
+{
+  "cuentas": [
+    "https://www.bancolombia.com/personas/solicitud-de-productos/cuentas/cuentas-ahorros",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/cuentas/cuenta-plan-nomina"
+  ],
+  "tarjetas": [
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-american-express-azul",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-american-express-verde"
+  ],
+  "creditos": [
+    "https://www.bancolombia.com/personas/productos-servicios/creditos/preaprobados/fondo-nacional-garantias",
+    "https://www.bancolombia.com/personas/productos-servicios/creditos/preaprobados/libre-inversion"
+  ]
+}

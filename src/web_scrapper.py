@@ -1,4 +1,5 @@
 import requests
+import json
 from bs4 import BeautifulSoup
 
 
@@ -21,7 +22,7 @@ def get_relevant_info(url: str):
             soup = BeautifulSoup(response.text, "html.parser")
 
             # Encuentra elementos relevantes, como títulos y párrafos
-            titles = soup.find_all(["h1", "h2", "h3", "h4"])
+            titles = soup.find_all(["h1", "h2", "h3", "h4", "h5", "h6"])
 
             # Aquí podrías ser más específico
             relevant_paragraphs = soup.find_all("p")
@@ -43,21 +44,26 @@ def save_to_file(file_name: str, data: str) -> None:
         file.write(data)
 
 
-# URL de la página que deseamos raspar
-url = "https://www.bancolombia.com/personas/cuentas/ahorros-y-corriente/cuenta-ahorros"
+def load_json(file_name: str) -> dict:
+    with open(file_name, "r", encoding="utf-8") as file:
+        return json.load(file)
 
-# Dividimos el string por el delimitador '/'
-partes = url.split("/")
-# Obtenemos el último elemento de la lista resultante
-nombre_producto = partes[-1]
 
-# Extraer la información relevante
-info = get_relevant_info(url)
+def main() -> None:
+    json_content = load_json("src/productos.json")
 
-if info:
-    print(info)
+    for producto in json_content:
+        for url in json_content[producto]:
+            print(url)
+            partes = url.split("/")
+            nombre_producto = partes[-1]
+            info = get_relevant_info(url)
 
-    # Guardar la información en un archivo
-    save_to_file(f"websites/{nombre_producto}.txt", info)
-else:
-    print("No se pudo recuperar información relevante de la página.")
+            if info:
+                save_to_file(f"websites/{producto}/{nombre_producto}.txt", info)
+            else:
+                print("No se pudo recuperar información relevante de la página.")
+
+
+if __name__ == "__main__":
+    main()

@@ -23,9 +23,13 @@ Abre una Cuenta de Ahorros por Internet
 Características
 Planes
 Plan Básico
+$6,495 mes
 Plan Estándar
+$9,743 mes
 Plan Premium
+$12,990 mes
 Plan Nómina
+Desde $0 mes*
 Todos los planes incluyen
 Ofertas
 Paga como quieras
@@ -35,16 +39,27 @@ Cobertura en todo el país
 Tu banco siempre al alcance
 Inscripción de facturas
 Alertas y notificaciones
+Cambiar plan
 ¿Cómo abrir una cuenta de ahorros?
+Tener en cuenta
 Apertura por internet
+Paso 1
 Elige tu plan
+Paso 2
 Toma una foto
+Paso 3
 Datos personales
+Paso 4
 Tarjeta Débito
+Paso 5
 Verificación
+Paso 6
 Crea tu clave
+Tener en cuenta
 Apertura en oficinas
+Paso 1
 Edad y documento
+Paso 2
 En la oficina
 Tasas y tarifas
 Saldo
@@ -52,7 +67,16 @@ Todo monto
 Rendimiento
 0,05% E.Ahelp
 Documentos
-Activa Tu Tarjeta DébitoDisfruta opciones hechas para ti por ser nuestro cliente
+Vigentes
+Históricos
+Cancelación
+Cancelación
+Términos y condiciones
+Tips para protegerte
+Activa Tu Tarjeta Débito
+Te puede interesar
+Legales
+ContáctanosDisfruta opciones hechas para ti por ser nuestro cliente
 Ahorra tiempo, adelanta tu gestión desde donde estés
 Encuentra lo que quieres cuando quieras, aquí te ayudamos
 Ábrela por Internet sin desplazarte o en una oficina.
@@ -127,6 +151,7 @@ Cancela sin costo en la línea 018000 912345 desde un teléfono fijo o en una o
 
 Marcaremos tu cuenta de ahorro como exenta de gravamen de movimiento financiero(4x1000), siempre y cuando no tengas otra cuenta marcada en el sistema financiero.
 Gestionar mi día a día: Accede a todas las funcionalidades de forma ilimitada durante el 2021. Anunciaremos oportunamente nuevas condiciones.
+Aplican Términos y Condiciones:Para obtener 5.000 Puntos Colombia del beneficio debes ser de los primeros 500 clientes que abra su cuenta de nómina entre el 1 de noviembre al 31 de noviembre de 2023. Recuerda que solo los clientes Bancolombia que estén inscritos en el programa de Puntos Colombia antes del 31 de noviembre de 2023 y reciban el correo electrónico con esta comunicación podrán recibir el beneficio. Si aún no estás registrado, regístrateaquí. Los Puntos Colombia se verán reflejados en tu cuenta de Puntos Colombia a más tardar a los tres (3) días hábiles del siguiente mes, después de abrir tu cuenta de nómina, el cargue del beneficio se te notificará a través de SMS o correo electrónico. Se entenderá que, al decidir participar de la campaña, conoces y aceptas las condiciones y limitaciones aquí establecidas. Cada cliente podrá obtener máximo un (1) beneficio, este beneficio no es acumulable con otros beneficios o promociones. El beneficio es intransferible y no se canjearán por dinero o por un beneficio diferente. La vigencia de los Puntos Colombia del beneficio será de 12 meses una vez cargados en tu cuenta de Puntos Colombia, y les aplican los términos y condiciones del programa Puntos Colombia que pueden ser consultados en la página webwww.puntoscolombia.com. En caso de empate para la obtención del beneficio, se tomará como ganador al Cliente que genere su inscripción de cuenta primero. Bancolombia suspenderá o terminará la presente campaña, sin asumir responsabilidad alguna, si se llegaren a detectar delitos, fraudes o cualquier irregularidad en la forma de participar o en el comportamiento de alguno de los clientes en esta o si se presentara alguna circunstancia de fuerza mayor que afecte los intereses o buena fe de Bancolombia. Con la participación en la campaña autorizas a Bancolombia para recolectar, almacenar, tratar y usar tus datos personales, y contactarte con el fin de informarte sobre esta, así como enviarte información relacionada con los productos, servicios y beneficios ofrecidos por Bancolombia, esto sin perjuicio del derecho que tienes como cliente de conocer, actualizar, rectificar, suprimir o revocar tus datos personales. Bancolombia podrá realizar modificaciones a los presentes términos y condiciones en caso de considerarlo necesario, dichas modificaciones serán notificadas a través de correo electrónico. Ten en cuenta que esta campaña solo aplica para mayores de 18 años con cédula de ciudadanía o cédula de extranjería.
 5 datos confidenciales:Hay 5 datos confidenciales que nunca te vamos a pedir: tu usuario, tu clave del banco, los números de tarjetas, fechas de vencimiento y códigos de seguridad. Desconfía si te los piden por llamadas, mensajes de texto o correos, así cuidas tu plata Financiera-Mente.
 Nueva tarjeta:Si vas a recibir una nueva tarjeta, recuerda que nunca te vamos a pedir entregar tu tarjeta anterior. Tú mismo debes destruirla y botarla, cortando el chip, los números, la banda y el código de seguridad. Así cuidas tu plata Financera-Mente.
 Cajeros:A la hora de usar el cajero, nunca recibas ayuda de extraños, no importa lo amables que se vean. Cubre siempre tu clave y no pierdas de vista tu tarjeta. Así proteges tu plata Financiera-Mente.
