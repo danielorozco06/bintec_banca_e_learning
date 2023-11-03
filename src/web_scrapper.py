@@ -1,6 +1,11 @@
 import requests
 import json
+import os
+import openai
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 def get_relevant_info(url: str):
@@ -49,6 +54,57 @@ def load_json(file_name: str) -> dict:
         return json.load(file)
 
 
+def chat_completion(messages: str):
+    """
+    Sends a list of messages to the OpenAI API and returns the response.
+    """
+    openai.api_type = "azure"
+    openai.api_base = "https://pocdevops-dev-oai-01.openai.azure.com"
+    openai.api_version = "2023-05-15"
+    openai.api_key = os.getenv("AZURE_OPENAI_TOKEN")
+
+    return openai.ChatCompletion.create(
+        engine="gpt-35-turbo",
+        messages=messages,
+        temperature=0,
+        max_tokens=1000,
+        top_p=0.95,
+        frequency_penalty=0,
+        presence_penalty=0,
+        stop=None,
+    )
+
+
+def read_file(file_path: str) -> str:
+    with open(file_path, "r") as f:
+        return f.read()
+
+
+def write_file(file_path: str, content: str) -> None:
+    with open(file_path, "w") as f:
+        f.write(content)
+
+
+def structure(file_name: str) -> None:
+    content = read_file(file_name)
+
+    messages = [
+        {
+            "role": "system",
+            "content": "Eres un experto financiero",
+        },
+        {
+            "role": "user",
+            "content": f"Obtener TODA la información del producto financiero principal descrito "
+            f"en el siguiente contenido: {content}.\nEstructurar la información en bullet points",
+        },
+    ]
+
+    response = chat_completion(messages)
+    output_file = file_name.replace("websites", "productos")
+    write_file(output_file, response["choices"][0]["message"]["content"])
+
+
 def main() -> None:
     json_content = load_json("src/productos.json")
 
@@ -60,7 +116,10 @@ def main() -> None:
             info = get_relevant_info(url)
 
             if info:
-                save_to_file(f"websites/{producto}/{nombre_producto}.txt", info)
+                file_name = f"websites/{producto}/{nombre_producto}.txt"
+                save_to_file(file_name, info)
+                structure(file_name)
+
             else:
                 print("No se pudo recuperar información relevante de la página.")
 
