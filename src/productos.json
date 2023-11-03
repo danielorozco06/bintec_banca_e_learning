@@ -1,13 +1,41 @@
 {
   "cuentas": [
     "https://www.bancolombia.com/personas/solicitud-de-productos/cuentas/cuentas-ahorros",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/cuentas/cuenta-plan-nomina"
+    "https://www.bancolombia.com/personas/solicitud-de-productos/cuentas/cuenta-plan-nomina",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/cuenta-plan-basico",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/cuenta-plan-estandar",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/cuenta-plan-premium"
   ],
   "tarjetas": [
     "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-american-express-azul",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-american-express-verde"
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-american-express-verde",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-american-express-oro",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-american-express-platinum",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-visa-clasica",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-visa-oro",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-visa-platinum",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-oficial-seleccion-colombia",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-visa-infinite",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-mastercard-joven",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-mastercard-e-card",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-mastercard-ideal",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-mastercard-clasica",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-mastercard-oro",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-mastercard-platinum",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-mastercard-black",
+    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-mastercard-sufi-oro"
   ],
   "creditos": [
-    "https://www.bancolombia.com/personas/productos-servicios/creditos/preaprobados/libre-inversion"
+    "https://www.bancolombia.com/personas/productos-servicios/creditos/preaprobados/libre-inversion",
+    "https://www.bancolombia.com/personas/creditos/consumo/crediagil-credito-rotativo",
+    "https://www.bancolombia.com/personas/creditos/consumo/compra-cartera",
+    "https://www.bancolombia.com/personas/a-la-mano/credito-a-la-mano",
+    "https://www.bancolombia.com/personas/creditos/consumo/microcredito",
+    "https://www.bancolombia.com/personas/creditos/negocios/bancoldex",
+    "https://www.bancolombia.com/personas/creditos/negocios/agrofacil",
+    "https://www.bancolombia.com/empresas/productos-servicios/creditos/cartera-comercial/credipago",
+    "https://www.bancolombia.com/personas/creditos/negocios/finagro",
+    "https://www.bancolombia.com/personas/creditos/vivienda/credito-hipotecario-para-reformar",
+    "https://www.bancolombia.com/personas/creditos/vivienda/credito-hipotecario-para-construccion"
   ]
 }
