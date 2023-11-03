@@ -80,13 +80,30 @@ def read_file(filename: str) -> str:
         return f.read()
 
 
+def select_product(query: str) -> str:
+    messages = [
+        {
+            "role": "system",
+            "content": "Eres un experto financiero.",
+        },
+        {
+            "role": "user",
+            "content": f"Clasificar el siguiente texto en alguna de las siguientes opciones [cuentas, creditos, tarjetas]: {query}. Como ejemploe retornar en el siguient formato: cuentas",
+        },
+    ]
+    response = chat_completion(messages)
+    system_message = response["choices"][0]["message"]["content"]
+    return system_message
+
+
 def response(query: str, chat_history: str):
     """
     Sends the user's query to the OpenAI API and generates a response.
     The response is then spoken aloud and added to the chat history.
     """
     perfil = read_file("perfiles/daniel.txt")
-    producto = read_file("productos/cuentas.txt")
+    ruta_producto = select_product(query)
+    producto = read_file(f"productos/{ruta_producto}/cuentas-ahorros.txt")
     response = request_ai(query, perfil, producto)
     speak_message(response)
     chat_history.append((query, response))
