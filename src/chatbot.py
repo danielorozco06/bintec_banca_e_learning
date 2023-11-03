@@ -3,6 +3,7 @@ This module contains the implementation of a chatbot that interacts with users t
 """
 
 import os
+import glob
 import gradio as gr
 import openai
 import time
@@ -80,6 +81,14 @@ def read_file(filename: str) -> str:
         return f.read()
 
 
+def concatenate_files(dir_path: str) -> str:
+    files = glob.glob(os.path.join(dir_path, "*"))
+    content = ""
+    for file in files:
+        content += read_file(file)
+    return content
+
+
 def select_product(query: str) -> str:
     messages = [
         {
@@ -103,8 +112,9 @@ def response(query: str, chat_history: str):
     """
     perfil = read_file("perfiles/daniel.txt")
     ruta_producto = select_product(query)
-    producto = read_file(f"productos/{ruta_producto}/cuentas-ahorros.txt")
-    response = request_ai(query, perfil, producto)
+
+    contenido_productos = concatenate_files(f"productos/{ruta_producto}")
+    response = request_ai(query, perfil, contenido_productos)
     speak_message(response)
     chat_history.append((query, response))
     time.sleep(2)
