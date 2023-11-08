@@ -1,7 +1,59 @@
-- El producto financiero principal es una tarjeta de crédito oficial de la Selección Colombia.
-- Ofrece beneficios como preventa de boletas, acceso a eventos con jugadores de la Selección Colombia, avances, ofertas y descuentos, alertas y notificaciones, pago sin contacto, desembolso de efectivo de emergencia, servicio de reemplazo de tarjetas y casillero virtual.
-- Tiene características como asistencias y seguros.
-- Las tasas y tarifas varían según el tipo de transacción y el monto.
-- Se puede solicitar por internet, por la sucursal telefónica o en una sucursal física.
-- Ofrece la posibilidad de bloquear temporal o definitivamente la tarjeta y cancelarla aunque se tengan deudas pendientes.
-- También se ofrecen otros productos y servicios de banca, fiducia, banca de inversión y financiamiento, además del portafolio ofrecido por entidades en el exterior.
+Producto financiero: Tarjeta de crédito oficial de la Selección Colombia
+
+Ofertas y beneficios:
+- Preventa de boletas para partidos de eliminatorias del mundial en los que la Selección Colombia sea local
+- Posibilidad de ganar acceso a eventos con jugadores de la Selección Colombia durante las eliminatorias del mundial
+- Avances
+- Ofertas y descuentos
+- Alertas y notificaciones
+- Pago sin contacto
+- Desembolso de efectivo de emergencia
+- Servicio de reemplazo de tarjetas
+- Casillero virtual
+
+Características:
+- Cupo entre $400 mil y $10 millones
+- Edad entre 18 y 84 años
+- Cuota de manejo de $24,290 mensuales
+- Por cada $6,600 de compras, se acumulan 6 Puntos Colombia
+- Interés mensual para compras y pago de impuestos: 2.7335%
+- Interés efectivo anual para compras y pago de impuestos: 38.2117%
+- Interés mensual para avances nacionales y en el exterior: 2.7335%
+- Interés efectivo anual para avances nacionales y en el exterior: 38.2117%
+
+Asistencias:
+- Servicio de cerrajero, plomero, electricista y vidriería en caso de emergencia en Colombia
+- Gastos de hotel, vigilancia, mudanza y bodega en caso de que la vivienda esté inhabitable en Colombia
+- Traslados médicos y gastos odontológicos por enfermedad o accidente en Colombia cuando se está por fuera de la ciudad de residencia
+- Gastos por urgencias odontológicas durante los primeros 105 días de un viaje
+- Servicio de grúa, carro-taller por emergencia y chofer en caso de imposibilidad para conducir debido a accidente en Colombia
+- Reembolso por la diferencia de precios si se encuentra una publicidad del mismo producto por un precio menor, hasta 200 USD
+
+Documentos:
+- Usa el comparador
+- Simula las cuotas
+
+Canales para tu servicio:
+- Solicitud de turno en sucursales
+- Conoce otros canales
+
+Novedades:
+- Uso de tecnología de chip o pago sin contacto a partir del 15 de febrero de 2021
+- Nueva imagen de tarjeta débito y crédito en proceso de implementación mientras se agotan inventarios
+
+Legales:
+- Vigentes
+- Históricos
+
+Solicitud:
+- Se puede solicitar por internet o por la sucursal telefónica marcando sin costo #263 desde un celular o 018000 912345 desde un teléfono fijo
+- También se puede acudir a una sucursal para solicitarla
+
+Bloqueo y cancelación:
+- Se puede bloquear temporalmente o definitivamente por la Sucursal Virtual Personas o por la App Personas Bancolombia, o por la sucursal telefónica marcando sin costo 018000 912345 desde un teléfono fijo
+- Se puede cancelar aunque se tengan deudas pendientes por la sucursal telefónica marcando sin costo desde un teléfono fijo al 018000 910063
+
+Otros:
+- Banco para todos
+- Entidades en el exterior
+- Necesidades

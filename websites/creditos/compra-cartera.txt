@@ -56,23 +56,23 @@ Desde 1 SMMLV
 Tasa
 Fija o Variable
 
-Interés mes vencido:Desde 1.64% hasta 2.83%
-Interés efectivo anual:Desde 21.56% hasta 39.80%
+Interés mes vencido:Desde 1.61% hasta 2.74%
+Interés efectivo anual:Desde 21.08% hasta 38.28%
 
 
 Interés mensual:DTF (TA*) + Puntos (TA*) *TA: Trimestre anticipado
-Interés efectivo anual:Desde 23.87% hasta 39.80%
+Interés efectivo anual:Desde 23.39% hasta 38.28%
 
-Interés mes vencido: Desde 1.425% hasta 2.83%
-Interés efectivo anual:Desde 18.505% hasta 39.80%
+Interés mes vencido: Desde 1.345% hasta 2.74%
+Interés efectivo anual:Desde 17.388% hasta 38.28%
 
 
 Interés mensual:DTF (TA*) + Puntos (TA*) *Trimestre anticipado
-Interés efectivo anual:Desde 17.666%  hasta 39.80%
+Interés efectivo anual:Desde 17.666%  hasta 38.28%
 
 
 Interés mensual:DTF (TA*) + Puntos (TA*) *TA: Trimestre anticipado
-Interés efectivo anual:Desde 16.49% hasta 39.80%
+Interés efectivo anual:Desde 15.12% hasta 38.28%
 Vigentes
 Históricos
 Cubre el saldo de la deuda en caso de fallecimiento o incapacidad total y permanente.

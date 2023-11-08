@@ -1,11 +1,12 @@
-- El producto financiero principal es el Crédito Productivo, diseñado para microempresarios y emprendedores independientes en Colombia.
-- El crédito tiene un desembolso mínimo de $1.000.000 y máximo de $139.200.000, con plazos en tasa fija de 24 a 60 meses.
-- No se exige Cámara de Comercio para acceder al crédito.
-- Se ofrece un programa de educación financiera/empresarial con descuento en la tasa.
-- El crédito cuenta con acompañamiento profesional desde la solicitud del producto.
-- Se pueden utilizar los cupos disponibles y el Fondo Nacional de Garantías si se requiere.
-- El crédito tiene cobertura básica y cobertura plus, que incluyen seguro de vida e independiente y asistencias.
-- Se pueden solicitar los créditos en línea, en sucursales físicas o por teléfono.
-- Las tasas de interés son fijas y varían según la política de riesgo de la entidad, plazo pactado, monto aprobado y condiciones financieras del cliente.
-- Se ofrecen opciones de seguro para proteger el crédito en caso de muerte o inactividad comercial.
-- Además del Crédito Productivo, se ofrecen productos y servicios de Banca, Fiducia, Banca de Inversión y Financiamiento, así como el portafolio ofrecido por las entidades del exterior en Panamá, Estados Unidos y Puerto Rico.
+- Producto financiero: Crédito productivo
+- Edad mínima: 18 años
+- Edad máxima: 84 años
+- Monto de desembolso: desde $1.000.000 hasta $139.200.000
+- Plazo: en tasa fija de 24 a 60 meses
+- Requisitos: no se exige Cámara de Comercio
+- Beneficios: estudio sin costo, personalización, garantía de crédito, cobertura, encadenamientos productivos, programa de educación financiera/empresarial con descuento en tasa, acompañamiento profesional desde la solicitud del producto, posibilidad de utilizar el Fondo Nacional de Garantías, red de cajeros y aliados de Bancolombia para realizar transacciones
+- Tasas de interés: tasa de interés fija política de 2.78% MV, tasa de interés nominal anual de 33.36%, tasa de interés efectiva anual de 38.96%; tasa de interés fija especial de 2.33% MV, tasa de interés nominal anual de 28.00%, tasa de interés efectiva anual de 31.89%
+- Certificación opcional de Elevate: no tiene costo y otorga descuento en tasa
+- Seguros opcionales: seguro de vida e independiente, seguro de vida, seguro de muerte o inactividad comercial, seguro de muerte, seguro de muerte o desempleo con tasa preferencial
+- Canales para solicitar el crédito: por internet, en sucursal física o llamando al #263 opción 2
+- Productos y servicios adicionales: Banca, Fiducia, Banca de Inversión, Financiamiento, portafolio ofrecido por entidades del exterior en Panamá, Estados Unidos y Puerto Rico.

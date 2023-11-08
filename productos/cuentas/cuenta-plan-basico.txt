@@ -1,12 +1,13 @@
-- El producto financiero principal es la cuenta Plan Básico.
-- Está dirigido a negocios en Colombia y entidades en el exterior.
-- Ofrece beneficios y ofertas para todos los clientes.
-- Se puede solicitar turno en sucursales para obtener más información.
-- Se ofrecen certificaciones bancarias.
-- Hay una amplia variedad de productos y servicios disponibles.
-- Existen canales 100% digitales para acceder al servicio.
-- Hay opciones específicas para necesidades como comprar una casa, ahorrar, estudiar, obtener dinero, invertir, comprar un vehículo o viajar.
-- Se pueden extender los plazos para pagar deudas de tarjeta de crédito.
-- Se pueden tomar productos por internet en cualquier momento de manera fácil y segura.
-- El banco ofrece servicios de banca, fiducia, banca de inversión y financiamiento.
-- También se ofrece un portafolio de entidades del exterior en Panamá, Estados Unidos y Puerto Rico.
+- Producto financiero principal: Cuenta Plan Básico
+- Disponible para negocios en Colombia y entidades en el exterior
+- Ofrece soluciones para necesidades financieras diversas
+- Banco para todos los clientes
+- Ofertas y beneficios disponibles
+- Solicitud de turno en sucursales
+- Certificaciones bancarias disponibles
+- Productos y servicios de Banca, Fiducia, Banca de Inversión, Financiamiento, además del portafolio ofrecido por las entidades del exterior en Panamá, Estados Unidos y Puerto Rico
+- Canales de servicio 100% digitales disponibles
+- Opciones para solicitar financiamiento para una casa, ahorrar, estudiar, obtener dinero, invertir, adquirir un vehículo o viajar
+- Posibilidad de extender el plazo para pagar la deuda de la tarjeta de crédito
+- Opción de pagar deudas con el cupo disponible de las tarjetas de crédito
+- Productos y servicios disponibles para tomar en línea en cualquier momento, de manera fácil y segura.

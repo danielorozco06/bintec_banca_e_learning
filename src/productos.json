@@ -28,5 +28,13 @@
     "https://www.bancolombia.com/personas/creditos/negocios/finagro",
     "https://www.bancolombia.com/personas/creditos/vivienda/credito-hipotecario-para-reformar",
     "https://www.bancolombia.com/personas/creditos/vivienda/credito-hipotecario-para-construccion"
+  ],
+  "inversiones": [
+    "https://www.bancolombia.com/personas/productos-servicios/inversiones/fondos-inversion-colectiva/fiducuenta",
+    "https://www.bancolombia.com/personas/productos-servicios/inversiones/fondos-inversion-colectiva/fidurenta",
+    "https://www.bancolombia.com/personas/productos-servicios/inversiones/fondos-inversion-colectiva/plan-semilla",
+    "https://www.bancolombia.com/personas/productos-servicios/inversiones/fondos-inversion-colectiva/fiduexcedentes",
+    "https://www.bancolombia.com/personas/productos-servicios/inversiones/fondos-inversion-colectiva/renta-acciones",
+    "https://www.bancolombia.com/personas/productos-servicios/inversiones/fondos-inversion-colectiva/renta-liquidez"
   ]
 }

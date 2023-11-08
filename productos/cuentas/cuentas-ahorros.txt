@@ -1,14 +1,37 @@
-- El producto financiero principal es una Cuenta de Ahorros ofrecida por Bancolombia.
-- La cuenta puede ser abierta por internet o en una sucursal física.
-- Hay cuatro planes disponibles: Básico, Estándar, Premium y Nómina.
-- Todos los planes incluyen ofertas, gestión diaria, bolsillos para ahorrar y separar dinero, cobertura en todo el país, inscripción de facturas, alertas y notificaciones, y la posibilidad de cambiar de plan en cualquier momento sin costo adicional.
-- Los planes tienen diferentes costos mensuales, desde $6,495 hasta $12,990.
-- La cuenta ofrece una tasa de rendimiento del 0,05% E.A.
-- Los retiros en cajeros tienen un costo de $2,950 cada uno, mientras que los retiros en corresponsales bancarios tienen un costo de $2,100 cada uno.
-- Las transferencias entre cuentas de Bancolombia son gratis e ilimitadas.
-- La cuenta incluye una tarjeta de débito que puede ser entregada a domicilio sin costo adicional.
-- La cuenta tiene un saldo mínimo y un monto de apertura.
-- La cuenta puede ser cancelada sin costo en una línea telefónica o en una sucursal física.
-- Bancolombia ofrece diferentes canales de servicio, incluyendo más de 600 sucursales físicas, más de 4,000 cajeros y más de 21,000 corresponsales bancarios.
-- Bancolombia ofrece diferentes productos y servicios de banca, fiducia, banca de inversión y financiamiento, además del portafolio ofrecido por entidades en el exterior en Panamá, Estados Unidos y Puerto Rico.
-- Bancolombia ofrece consejos de seguridad para proteger la información y el dinero de los clientes.
+- Producto financiero: Cuenta de Ahorros
+- Características: 
+  - Apertura por internet o en oficinas
+  - Planes disponibles: Básico, Estándar, Premium y Nómina
+  - Cuota de manejo desde $6,495 al mes
+  - Saldo mínimo requerido
+  - Intereses generados a una tasa del 0,05% E.A.
+  - Retención en la fuente del 7% sobre los intereses generados
+  - Bolsillos para ahorrar y separar el dinero
+  - Transferencias entre cuentas Bancolombia gratis e ilimitadas
+  - Retiros en cajeros y corresponsales bancarios con tarifas variables
+  - Tarjeta débito incluida
+  - Gestión de día a día ilimitada durante el 2021
+- Ofertas y beneficios:
+  - Paga como quieras
+  - Cobertura en todo el país
+  - Inscripción de facturas
+  - Alertas y notificaciones
+  - Ofertas en marcas seleccionadas al pagar con la tarjeta débito Mastercard
+  - Gestión de gastos con Día a Día
+  - Más de 600 sucursales físicas, 4,000 cajeros y 21,000 corresponsales bancarios
+  - Envío de dinero y pago de facturas desde la App Bancolombia
+- Tasas y tarifas:
+  - Saldo mínimo requerido
+  - Intereses generados a una tasa del 0,05% E.A.
+  - Retención en la fuente del 7% sobre los intereses generados
+  - Tarifas variables para retiros en cajeros y corresponsales bancarios
+- Cómo abrir una cuenta de ahorros:
+  - Apertura por internet: elegir plan, tomar una foto, ingresar datos personales, recibir tarjeta débito, verificación y creación de clave
+  - Apertura en oficinas: verificar edad y documento, acudir a la oficina
+- Tips para proteger la cuenta:
+  - No compartir datos confidenciales
+  - Destruir tarjeta anterior al recibir una nueva
+  - No aceptar ayuda de extraños en cajeros
+  - Descargar aplicaciones solo de tiendas oficiales
+  - Desconfiar de correos sospechosos y reportarlos
+- Productos y servicios adicionales ofrecidos por Bancolombia y entidades en el exterior.

@@ -20,6 +20,7 @@ p3 = "Que profesion tienes?"
 p4 = "Cuantos ingresos tienes?"
 perfil_global = None
 
+
 def save_data(r1, r2, r3, r4):
     global perfil_global
     perfil_global = f"../perfiles/{r1}.txt"
@@ -27,7 +28,9 @@ def save_data(r1, r2, r3, r4):
         file.write(f"{p1}:{r1}\n{p2}:{r2}\n{p3}:{r3}\n{p4}:{r4}\n")
     return f"{r1} profile data saved successfully"
 
+
 # Methods for Chatbot
+
 
 def chat_completion(messages: str):
     """
@@ -113,7 +116,7 @@ def select_product(query: str) -> str:
         },
         {
             "role": "user",
-            "content": f"Clasificar el siguiente texto en alguna de las siguientes opciones [cuentas, creditos, tarjetas]: {query}. Como ejemploe retornar en el siguient formato: cuentas",
+            "content": f"Clasificar el siguiente texto en alguna de las siguientes opciones [cuentas, creditos, tarjetas, inversiones]: {query}. Como ejemplo retornar en el siguiente formato: cuentas",
         },
     ]
     response = chat_completion(messages)
@@ -149,7 +152,9 @@ def main() -> None:
         resp4 = gr.Textbox(label=p4)
         send_perfil = gr.Button("Save Perfil")
         confirmacion = gr.Markdown()
-        send_perfil.click(save_data, inputs=[resp1, resp2, resp3, resp4], outputs=confirmacion)
+        send_perfil.click(
+            save_data, inputs=[resp1, resp2, resp3, resp4], outputs=confirmacion
+        )
 
         gr.Markdown("## Asesor financiero virtual")
         chatbot = gr.Chatbot()

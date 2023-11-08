@@ -1,14 +1,15 @@
-- El producto financiero principal es la cuenta Plan Premium.
-- Ofrece servicios para negocios en Colombia y entidades en el exterior.
-- Está diseñada para satisfacer diversas necesidades financieras.
-- Es un banco para todos.
-- Ofrece ofertas y beneficios exclusivos para sus clientes.
-- Se puede solicitar turno en sucursales para atención personalizada.
-- Ofrece certificaciones bancarias.
-- Tiene una amplia variedad de productos y servicios financieros.
-- Cuenta con canales 100% digitales para mayor comodidad del cliente.
-- Ofrece opciones para diferentes necesidades financieras, como comprar una casa, ahorrar, estudiar, invertir, adquirir un vehículo o viajar.
-- Permite extender el plazo para pagar la deuda de la tarjeta de crédito.
-- Ofrece la posibilidad de pagar deudas con el cupo disponible de las tarjetas de crédito.
-- Ofrece productos y servicios de banca, fiducia, banca de inversión y financiamiento.
-- También ofrece el portafolio de entidades del exterior en Panamá, Estados Unidos y Puerto Rico.
+- Producto financiero principal: Cuenta Plan Premium
+- Disponible para negocios en Colombia y entidades en el exterior
+- Ofrece soluciones para diversas necesidades financieras
+- Banco para todos los clientes
+- Ofertas y beneficios exclusivos para clientes de la cuenta Plan Premium
+- Posibilidad de solicitar turno en sucursales
+- Certificaciones bancarias disponibles
+- Amplia variedad de productos y servicios financieros, incluyendo banca, fiducia, banca de inversión y financiamiento
+- Disponibilidad de portafolio ofrecido por entidades del exterior en Panamá, Estados Unidos y Puerto Rico
+- Canales de servicio 100% digitales disponibles
+- Opciones para solicitar productos financieros específicos, como préstamos para vivienda, ahorros, estudios, inversiones, vehículos y viajes
+- Posibilidad de extender el plazo para pagar la deuda de la tarjeta de crédito
+- Opción de pagar deudas con el cupo disponible de las tarjetas de crédito
+- Grupo Bancolombia es el establecimiento bancario encargado de ofrecer la cuenta Plan Premium
+- Copyright © 2021 Grupo Bancolombia.

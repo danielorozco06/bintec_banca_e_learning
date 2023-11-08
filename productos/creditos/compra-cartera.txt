@@ -1,8 +1,31 @@
-- El producto financiero principal es la compra de cartera de Bancolombia.
-- Este producto está dirigido a negocios en Colombia y entidades en el exterior que necesiten consolidar sus deudas.
-- Ofrece beneficios como menor tasa de interés, sin costos adicionales y seguro de vida.
-- Las tasas de interés pueden ser fijas o variables, con un interés mensual vencido que va desde 1.425% hasta 2.83% y un interés efectivo anual que va desde 18.505% hasta 39.80%.
-- Se pueden adquirir seguros obligatorios y voluntarios para cubrir el saldo de la deuda en caso de fallecimiento o incapacidad total y permanente, así como para asegurar el pago de algunas cuotas en caso de eventualidades.
-- La solicitud del crédito se puede hacer por internet, sucursal telefónica o en una sucursal física.
-- El crédito se cancela cuando se paga la deuda en su totalidad, ya sea en el plazo inicialmente pactado o de manera anticipada.
-- Bancolombia ofrece otros productos y servicios de banca, fiducia, banca de inversión y financiamiento, además de un portafolio ofrecido por entidades del exterior en Panamá, Estados Unidos y Puerto Rico.
+- Producto financiero: Compra de cartera Bancolombia
+- Beneficios: 
+  - Sin costos adicionales
+  - Menor tasa de interés
+  - Pagos por internet
+  - Seguro de vida
+- Características: 
+  - Tasa fija o variable
+  - Edad entre 18 y 84 años
+  - Ingresos para libranza desde $1 millón
+  - Ingresos para libre inversión desde 1 SMMLV
+- Tasas y tarifas: 
+  - Tasa fija: 
+    - Interés mes vencido: Desde 1.61% hasta 2.74%
+    - Interés efectivo anual: Desde 21.08% hasta 38.28%
+  - Tasa variable: 
+    - Interés mensual: DTF (TA*) + Puntos (TA*) *TA: Trimestre anticipado
+    - Interés efectivo anual: Desde 23.39% hasta 38.28%
+- Documentos: 
+  - Seguros obligatorios y voluntarios
+- Canales de solicitud: 
+  - Internet
+  - Sucursal telefónica
+  - Sucursales físicas
+- Condiciones: 
+  - El estudio de crédito es sin costo
+  - El crédito no tiene cuota de manejo
+  - Se puede cancelar anticipadamente sin sanción
+  - Si se adquiere el seguro de empleado o independiente, la tasa disminuye aún más
+- Productos y servicios adicionales: 
+  - Banca, Fiducia, Banca de Inversión, Financiamiento, además del portafolio ofrecido por las entidades del exterior en Panamá, Estados Unidos y Puerto Rico.

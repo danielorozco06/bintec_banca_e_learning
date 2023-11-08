@@ -1,11 +1,20 @@
-- El producto financiero principal es el Crédito Agrofácil ofrecido por Bancolombia S.A.
-- Este crédito está dirigido a pequeños, medianos y grandes productores agropecuarios, acuícolas o de pesca en Colombia.
-- El objetivo del crédito es financiar recursos para impulsar la producción, transformación y comercialización de los productos.
-- Se ofrecen diferentes planes de acuerdo a las necesidades del cliente.
-- La tasa máxima permitida varía según el tipo de productor.
-- Se ofrece un Seguro de Vida Asociado a la Deuda para proteger al cliente.
-- El desembolso de los recursos puede ser a cuenta propia del deudor o a través de cheques con cruce.
-- La cuenta corriente o de ahorros del deudor puede estar en otro banco.
-- Bancolombia también ofrece otros productos y servicios de banca, fiducia, banca de inversión y financiamiento, así como el portafolio ofrecido por entidades en el exterior en Panamá, Estados Unidos y Puerto Rico.
-- Se pueden solicitar turnos en sucursales y hay diferentes canales de atención posventa disponibles.
-- El producto es ofrecido por Bancolombia S.A. Establecimiento Bancario.
+- Producto financiero: Crédito Agrofácil
+- Objetivo: Financiar recursos para la producción agropecuaria, acuícola o de pesca, así como su transformación y comercialización.
+- Entidades en el exterior: Bancolombia ofrece productos y servicios de banca, fiducia, banca de inversión y financiamiento, además del portafolio ofrecido por las entidades del exterior en Panamá, Estados Unidos y Puerto Rico.
+- Necesidades: Dirigido a pequeños, medianos y grandes productores que requieren recursos para impulsar su producción y comercialización.
+- Banco para todos: Ofrecido por Bancolombia S.A. Establecimiento Bancario.
+- Ofertas y beneficios:
+  - Planes: El cliente puede elegir el plan que más se acomode a sus necesidades.
+  - Tasa de interés: La tasa máxima permitida para pequeños productores de ingresos bajos y pequeños productores es IBR + 6.7 puntos (E.A), para medianos y grandes productores es IBR + 9.7 puntos (E.A).
+  - Seguros: Se ofrece el Seguro de Vida Asociado a la Deuda para proteger al cliente.
+- Solicitud de turno en sucursales: Disponible para agilizar el proceso de solicitud del crédito.
+- Certificaciones Bancarias: No se especifica información sobre certificaciones bancarias.
+- Productos y Servicios: No se especifica información sobre otros productos y servicios ofrecidos por Bancolombia.
+- Canales para tu servicio: Se ofrecen diferentes canales de atención posventa para el cliente.
+- Conoce otros canales: Se invita al cliente a conocer otros canales de atención disponibles.
+- Características:
+  - Exenciones: Solo están exentos los desembolsos que se realicen a cuenta propia del deudor (ahorros corriente o cuenta de depósito en el Banco de la República) o mediante expedición de cheques con cruce, con la leyenda "para consignar en la cuenta corriente o de ahorros del primer beneficiario", a nombre del deudor. La cuenta corriente o de ahorros del deudor puede estar en otro banco, en este caso el desembolso de los recursos vía Sebra a dicha cuenta también está exento. De la misma manera están exentos aquellos que se destinen a adquisición de vivienda, vehículo o activo fijo.
+- Impulsamos tu producción agropecuaria, acuícola o de pesca: Se destaca el compromiso de Bancolombia en impulsar la producción agropecuaria, acuícola o de pesca.
+- Dispositivos Android e iOS: Se ofrece la posibilidad de acceder al producto a través de dispositivos móviles con sistemas operativos Android e iOS.
+- Legales: No se especifica información sobre aspectos legales del producto.
+- Contáctanos: Se ofrece información de contacto para el cliente que requiera más información sobre el producto.

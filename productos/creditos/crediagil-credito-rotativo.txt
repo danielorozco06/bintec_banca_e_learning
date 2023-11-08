@@ -1,15 +1,17 @@
-- El producto financiero principal es el Crediágil Bancolombia, un crédito rotativo para negocios en Colombia.
-- El crédito también está disponible para entidades en el exterior.
-- El crédito se puede utilizar para diversas necesidades y está disponible para todos los clientes del banco.
-- Ofrece varios canales de servicio, incluyendo solicitud de turno en sucursales y canales virtuales.
-- Se ofrecen certificaciones bancarias y una amplia gama de productos y servicios.
-- El crédito tiene tasas fijas y un interés mensual entre el 1.84% y la tasa máxima permitida vigente, con un interés efectivo anual entre el 24.46% y la tasa máxima permitida vigente.
-- La cuota de manejo es de $17.440 + IVA / mes y el desembolso mínimo es de $100 mil.
-- El plazo por sucursal telefónica es de 36 o 60 meses, mientras que el plazo por sucursal virtual y app es de 60 meses.
-- La aprobación está sujeta a estudio de crédito y políticas de la entidad.
-- Se ofrecen beneficios como la exención del Gravamen de Movimientos Financieros (GMF), renovación del cupo con cada movimiento o pago, y la posibilidad de desembolsar desde la app o por teléfono.
-- También se ofrece un seguro de vida obligatorio que cubre el saldo de la deuda en caso de fallecimiento o incapacidad total y permanente.
-- Las tasas y tarifas son informativas y podrían variar de acuerdo a políticas de riesgo de la entidad, plazo pactado, monto aprobado y condiciones financieras del cliente.
-- Se puede solicitar el crédito por internet, por la sucursal telefónica o acercándose a una de las sucursales del banco.
-- El crédito se cancela cuando se paga la deuda en su totalidad, bien sea en el plazo inicialmente pactado o de manera anticipada.
-- En caso de incumplimiento en el pago del capital o de los intereses, Bancolombia podrá dar por vencido el préstamo y exigir el pago total de la deuda, así no se haya vencido el plazo.
+- Producto financiero: Crediágil Crédito Rotativo
+- Entidades disponibles: Negocios en Colombia y entidades en el exterior
+- Necesidades: Crédito para cualquier fin personal o empresarial
+- Ofertas y beneficios: Sin 4x1000, varios canales de acceso, seguro de vida, renovación automática del cupo, posibilidad de extender el plazo de pago, exención del Gravamen de Movimientos Financieros (GMF)
+- Características: Tasa fija, interés mensual entre 1.84% y la tasa máxima permitida vigente, interés efectivo anual entre 24.46% y la tasa máxima permitida vigente, cuota de manejo de $17.440 + IVA / mes
+- Seguros: Seguro de vida obligatorio
+- Tasas y tarifas: La cuota de manejo será GRATIS los 3 primeros meses a partir de cuándo adquieres el producto y 3 meses más, si conservas un uso superior al 50% de tu cupo durante los 3 primeros meses de activación. Las tasas son informativas y podrían variar de acuerdo a políticas de riesgo de la entidad, plazo pactado, monto aprobado y condiciones financieras del cliente. Tasas vigentes a partir del 01 de noviembre del 2023. Aplica la tasa vigente al momento del desembolso.
+- Documentos: Se requiere estudio de crédito y cumplimiento de políticas de la entidad
+- Simulador de cuotas disponible
+- Requisitos de ingresos: Ingresos superiores a 2 SMMLV
+- Plazos: Plazo por sucursal telefónica de 36 o 60 meses, plazo por sucursal virtual y app de 60 meses
+- Desembolsos desde $100 mil
+- Cuota de manejo de $17.440 + IVA / mes
+- Canales de acceso: Internet, sucursal telefónica, sucursales físicas
+- Cancelación del crédito: Se cancela cuando se paga la deuda en su totalidad, bien sea en el plazo inicialmente pactado o de manera anticipada. En caso de incumplimiento en el pago del capital o de los intereses, Bancolombia podrá dar por vencido el préstamo y exigir el pago total de la deuda, así no se haya vencido el plazo. 
+- Desembolso del crédito: Se puede desembolsar desde la Sucursal Virtual Personas o App Personas en la opción Otros, Disponible Crediágil y seleccionando Desembolsar. También se puede pedir el desembolso por la sucursal telefónica marcando sin costo 018000 912345 desde un teléfono fijo.
+- Productos y servicios adicionales: Banca, Fiducia, Banca de Inversión, Financiamiento, además del portafolio ofrecido por las entidades del exterior en Panamá, Estados Unidos y Puerto Rico.

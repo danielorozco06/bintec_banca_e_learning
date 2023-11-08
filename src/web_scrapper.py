@@ -96,7 +96,8 @@ def structure(file_name: str) -> None:
         {
             "role": "user",
             "content": f"Obtener TODA la información del producto financiero principal descrito "
-            f"en el siguiente contenido: {file_name} {content}.\nEstructurar la información en bullet points",
+            f"en el siguiente contenido: {file_name} {content}."
+            "Estructurar la información en bullet points y mantener todos los datos numéricos",
         },
     ]
 

@@ -1,11 +1,13 @@
-- El Crédito A la Mano es un producto financiero ofrecido por Bancolombia.
-- Se puede obtener a través de la App Bancolombia A la Mano o por mensaje de texto.
-- No se requiere de papeleos ni codeudor.
-- Los montos disponibles van desde $100.000.
-- El plazo máximo es de 12 meses.
-- La tasa de interés es fija y varía según la política del banco.
-- La cuota se descuenta automáticamente de la cuenta de ahorros o de Bancolombia A la Mano.
-- Si no hay suficiente dinero en la cuenta, se puede pagar en un corresponsal bancario.
-- Para recibir la oferta de crédito, se debe usar constantemente la App Bancolombia A la Mano y no estar reportado en centrales de riesgo.
-- Para resolver dudas o solicitar información adicional, se puede llamar a la línea de atención nacional desde el celular.
-- Bancolombia también ofrece otros productos y servicios financieros, incluyendo Banca, Fiducia, Banca de Inversión y Financiamiento.
+- El producto financiero principal es el Crédito A la Mano de Bancolombia.
+- Este crédito está dirigido a negocios en Colombia y no requiere de papeleos ni codeudor.
+- Los montos disponibles van desde $100.000 y el plazo máximo es de 12 meses.
+- La tasa fija política es del 3,82%, mientras que la tasa especial es del 2,33% desde el 19 de mayo de 2023 hasta el 31 de diciembre de 2023.
+- La tasa de interés efectiva anual (E.A.) pasó de 44,04% a 31,89%.
+- El desembolso del crédito se realiza de forma inmediata y la cuota se descuenta automáticamente cada mes de Bancolombia A La mano o de la cuenta de ahorros tradicional donde se hizo el desembolso.
+- Para obtener este crédito, es necesario recibir la oferta de Bancolombia por medio de un mensaje de texto o a través de la App Bancolombia A la mano.
+- Para recibir la oferta, es necesario usar constantemente la App Bancolombia A la mano y no estar reportado en centrales de riesgo.
+- El cliente puede elegir las cuotas una vez que acepta la oferta del crédito.
+- Bancolombia ofrece otros productos y servicios de banca, fiducia, banca de inversión y financiamiento, además del portafolio ofrecido por entidades en el exterior en Panamá, Estados Unidos y Puerto Rico.
+- Bancolombia cuenta con canales de atención al cliente como la línea de atención nacional desde el celular y la solicitud de turno en sucursales.
+- El cliente puede descargar los extractos de Bancolombia A la mano y realizar pagos automáticos o en corresponsales bancarios.
+- Bancolombia ofrece certificaciones bancarias y resuelve dudas a través de preguntas frecuentes en su sitio web.

@@ -1,11 +1,44 @@
-- El producto financiero principal es la Tarjeta de Crédito Libre American Express.
-- Ofrece $0 cuota de manejo y tú eliges el plazo para pagar tus compras nacionales.
-- También puedes realizar avances en efectivo sobre el cupo disponible.
-- La tarjeta tiene un casillero virtual gratis con Aeropost y facturación en pesos y dólares.
-- Ofrece ofertas y descuentos en diferentes establecimientos, incluyendo el Hotel Makani Luxury Wanderlust.
-- Las tasas de interés mensual y efectivo anual varían según el tipo de transacción.
-- Puedes solicitar la tarjeta en línea, por teléfono o en una sucursal física.
-- Ofrece opciones para ahorrar y disfrutar más con el programa Sale con Todo.
-- Puedes bloquear temporal o definitivamente la tarjeta en caso de pérdida o robo.
-- Puedes cancelar la tarjeta aunque tengas deudas pendientes.
-- El banco ofrece otros productos y servicios de banca, fiducia, banca de inversión y financiamiento, además del portafolio ofrecido por entidades en el exterior.
+Producto financiero: Tarjeta de Crédito Libre American Express
+
+Características:
+- Cuota de manejo: $0
+- Cupo total disponible para avances
+- Casillero virtual gratis con Aeropost
+- Facturación en pesos y en dólares
+
+Tasas y tarifas:
+- Interés mensual para compras y pago de impuestos: 2.7335%
+- Interés efectivo anual para compras y pago de impuestos: 38.2117%
+- Interés mensual para avances nacionales y en el exterior: 2.7335%
+- Interés efectivo anual para avances nacionales y en el exterior: 38.2117%
+
+Beneficios:
+- Tú eliges el plazo para pagar tus compras
+- Ofertas y descuentos
+- Hotel Makani Luxury Wanderlust: 15% en pasadía y 10% en upgrades, spa, alimentos y bebidas
+
+Requisitos:
+- Ingresos desde 1 SMMLV
+- Edad entre 18 y 84 años
+- Cupo entre $400 mil y $10 millones
+
+Canales de servicio:
+- Sucursales físicas
+- Sucursal Virtual Empresas
+- Sucursal Virtual Personas
+- Bancolombia App Empresas
+- Bancolombia APP Personas
+
+Formas de pago:
+- Sucursales físicas
+- Sucursal Virtual Empresas
+- Sucursal Virtual Personas
+- Bancolombia App Empresas
+- Bancolombia APP Personas
+- Débito automático desde la cuenta de ahorro o corriente
+
+Otros servicios:
+- Bloqueo temporal y definitivo de la tarjeta
+- Cancelación de la tarjeta
+- Comparador de tarjetas de crédito
+- Productos y servicios de Banca, Fiducia, Banca de Inversión, Financiamiento, además del portafolio ofrecido por las entidades del exterior en Panamá, Estados Unidos y Puerto Rico.
