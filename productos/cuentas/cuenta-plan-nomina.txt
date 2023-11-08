@@ -1,8 +1,8 @@
-- Producto financiero principal: Banco para todos
-- Ofertas y beneficios disponibles para los clientes
-- Solicitud de turno en sucursales para atención personalizada
-- Certificaciones bancarias disponibles
-- Productos y servicios ofrecidos por el banco, incluyendo Banca, Fiducia, Banca de Inversión, Financiamiento, y el portafolio ofrecido por entidades en el exterior en Panamá, Estados Unidos y Puerto Rico
-- Canales de servicio disponibles, incluyendo opciones 100% digitales
-- Opciones para activar tarjeta de débito, cambiar de plan de cuenta de ahorros, y solicitar productos y servicios específicos como préstamos para vivienda, ahorros, educación, inversión, vehículos y viajes
-- Información legal y opciones de contacto con el banco.
+- El producto financiero principal es una cuenta de nómina ofrecida por Bancolombia.
+- El banco ofrece servicios tanto para negocios en Colombia como para entidades en el exterior.
+- La cuenta de nómina está diseñada para satisfacer las necesidades de todos los clientes del banco.
+- El banco ofrece ofertas y beneficios para sus clientes, así como la posibilidad de solicitar un turno en sucursales.
+- Los clientes pueden acceder a certificaciones bancarias y una amplia gama de productos y servicios.
+- El banco ofrece canales de servicio 100% digitales para mayor comodidad de los clientes.
+- Los clientes pueden activar su tarjeta de débito, cambiar de plan y encontrar información sobre productos y servicios específicos, como préstamos para vivienda, ahorros, educación, inversiones, vehículos y viajes.
+- El banco también ofrece opciones legales y un servicio de atención al cliente.

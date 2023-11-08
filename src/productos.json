@@ -7,23 +7,14 @@
     "https://www.bancolombia.com/personas/solicitud-de-productos/cuenta-plan-premium"
   ],
   "tarjetas": [
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-american-express-azul",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-american-express-verde",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-american-express-oro",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-american-express-platinum",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-visa-clasica",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-visa-oro",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-visa-platinum",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-oficial-seleccion-colombia",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-visa-infinite",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-mastercard-joven",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-mastercard-e-card",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-mastercard-ideal",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-mastercard-clasica",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-mastercard-oro",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-mastercard-platinum",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-mastercard-black",
-    "https://www.bancolombia.com/personas/solicitud-de-productos/tarjeta-mastercard-sufi-oro"
+    "https://www.bancolombia.com/personas/tarjetas-de-credito/american-express/libre",
+    "https://www.bancolombia.com/personas/tarjetas-de-credito/mastercard/ideal",
+    "https://www.bancolombia.com/personas/tarjetas-de-credito/mastercard/joven",
+    "https://www.bancolombia.com/personas/tarjetas-de-credito/mastercard/clasica",
+    "https://www.bancolombia.com/personas/tarjetas-de-credito/visa/oro",
+    "https://www.bancolombia.com/personas/tarjetas-de-credito/visa/seleccion-colombia",
+    "https://www.bancolombia.com/personas/tarjetas-de-credito/mastercard/oro",
+    "https://www.bancolombia.com/personas/tarjetas-de-credito/visa/clasica"
   ],
   "creditos": [
     "https://www.bancolombia.com/personas/productos-servicios/creditos/preaprobados/libre-inversion",

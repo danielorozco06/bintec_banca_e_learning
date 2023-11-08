@@ -1,10 +1,18 @@
-- Producto financiero principal: Crédito de Libre Inversión
-- Entidades en el exterior: No se especifica
-- Necesidades: Remodelar, estudiar o viajar
-- Banco para todos: Bancolombia
-- Ofertas y beneficios: Desembolso inmediato a tu cuenta, plazo máximo para pagar, personalización de cuotas, seguro de Empleado Protegido con menor tasa y cobertura de hasta 6 cuotas en caso de desempleo
-- Solicitud de turno en sucursales: Disponible
-- Certificaciones Bancarias: No se especifica
-- Productos y Servicios: No se especifica
-- Canales para tu servicio: App o Sucursal Virtual Personas
-- Conoce otros canales: No se especifica
+- Producto financiero: Crédito de Libre Inversión
+- Entidades disponibles: Negocios en Colombia y entidades en el exterior
+- Necesidades cubiertas: Remodelar, estudiar o viajar
+- Ofertas y beneficios: 
+  - Elección del valor deseado
+  - Plazo de hasta 60 meses
+  - Desembolso inmediato a la cuenta
+  - Personalización del crédito para facilitar el pago de cuotas
+  - Opciones hechas para clientes
+  - Ahorro de tiempo al adelantar gestiones desde cualquier lugar
+  - Encuentro de información y ayuda en cualquier momento
+  - Posibilidad de usar el dinero para cualquier fin
+  - Desembolso máximo hasta el 31 de diciembre
+- Canales de servicio: Solicitud de turno en sucursales, canales virtuales
+- Certificaciones bancarias disponibles
+- Posibilidad de adquirir el crédito con el seguro de Empleado Protegido, que ofrece una menor tasa y cobertura en caso de desempleo
+- Aprobación sujeta a estudio de crédito y políticas de la entidad
+- Copyright © 2023 Grupo Bancolombia.
