@@ -181,7 +181,7 @@ def main() -> None:
         clear.click(lambda: None, None, audio)
         clear.click(lambda: None, None, query)
 
-    demo.launch(share=False)
+    demo.launch(share=True)
 
 
 if __name__ == "__main__":
