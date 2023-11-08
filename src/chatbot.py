@@ -32,8 +32,8 @@ def save_data(r1, r2, r3, r4):
     # trim r1 to remove spaces
     r1 = r1.strip()
 
-    create_directory("../perfiles")
-    perfil_global = f"../perfiles/{r1}.txt"
+    create_directory("perfiles")
+    perfil_global = f"perfiles/{r1}.txt"
     with open(perfil_global, "w") as file:
         file.write(f"{p1}:{r1}\n{p2}:{r2}\n{p3}:{r3}\n{p4}:{r4}\n")
     return f"{r1} profile data saved successfully"
@@ -181,7 +181,7 @@ def main() -> None:
         clear.click(lambda: None, None, audio)
         clear.click(lambda: None, None, query)
 
-    demo.launch(share=True)
+    demo.launch(share=False)
 
 
 if __name__ == "__main__":
