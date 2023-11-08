@@ -3,3 +3,4 @@ openai
 gradio
 gTTS
 beautifulsoup4
+SpeechRecognition

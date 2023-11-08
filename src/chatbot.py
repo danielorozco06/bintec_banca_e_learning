@@ -7,6 +7,8 @@ import glob
 import gradio as gr
 import openai
 import time
+
+import speech_recognition as sr
 from gtts import gTTS
 from dotenv import load_dotenv
 
@@ -73,12 +75,24 @@ def speak_message(message: str) -> None:
 
 def transcribe_audio(audio: str) -> str:
     """
-    Transcribes the audio file at the given path using the OpenAI API and returns the resulting text.
+    Transcribes the audio file at the given path and returns the resulting text.
     """
-    with open(audio, "rb") as audio_file:
-        openai.api_key = os.getenv("OPENAI_TOKEN")
-        transcription = openai.Audio.transcribe("whisper-1", audio_file)
-        return transcription["text"]
+    try:
+        with open(audio, "rb") as audio_file:
+            openai.api_key = os.getenv("OPENAI_TOKEN")
+            transcription = openai.Audio.transcribe("whisper-1", audio_file)
+            return transcription["text"]
+    except Exception:
+        # Initialize recognizer class (for recognizing the speech)
+        r = sr.Recognizer()
+
+        # listening the audio file and store in audio_text variable
+        with sr.AudioFile(audio) as source:
+            audio_text = r.listen(source)
+
+            # using google speech recognition
+            text = r.recognize_google(audio_text, language="es-CO")
+            return text
 
 
 def request_ai(transcript: str, perfil: str, producto: str) -> str:
