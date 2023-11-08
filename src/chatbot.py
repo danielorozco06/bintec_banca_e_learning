@@ -21,8 +21,18 @@ p4 = "Cuantos ingresos tienes?"
 perfil_global = None
 
 
+def create_directory(path: str) -> None:
+    if not os.path.exists(path):
+        os.makedirs(path)
+
+
 def save_data(r1, r2, r3, r4):
     global perfil_global
+
+    # trim r1 to remove spaces
+    r1 = r1.strip()
+
+    create_directory("../perfiles")
     perfil_global = f"../perfiles/{r1}.txt"
     with open(perfil_global, "w") as file:
         file.write(f"{p1}:{r1}\n{p2}:{r2}\n{p3}:{r3}\n{p4}:{r4}\n")
@@ -171,7 +181,7 @@ def main() -> None:
         clear.click(lambda: None, None, audio)
         clear.click(lambda: None, None, query)
 
-    demo.launch()
+    demo.launch(share=True)
 
 
 if __name__ == "__main__":
